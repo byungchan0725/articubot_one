@@ -29,7 +29,7 @@
 
         <sensor name="laser" type="ray">
             <pose> 0 0 0 0 0 0 </pose>
-            <visualize>true</visualize>
+            <visualize>false</visualize> <!-- ture:시각화 on, false:시각화 off -->
             <update_rate>10</update_rate>
             <ray>
                 <scan>
